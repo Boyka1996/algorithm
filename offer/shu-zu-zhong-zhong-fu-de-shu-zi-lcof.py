@@ -6,6 +6,8 @@ class Solution:
                 return nums[i]
         return
 
+
+
     # def findRepeatNumber(self, nums):
     #     self.quick_sort(nums, 0, len(nums) - 1)
     #     for i in range(len(nums) - 1):
