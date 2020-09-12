@@ -1,3 +1,4 @@
+import cv2
 class Solution:
     def findRepeatNumber(self, nums):
         nums.sort()
@@ -8,8 +9,9 @@ class Solution:
         return
 
 if __name__ == '__main__':
-    solution = Solution()
+
+    # solution = Solution()
     # m = [2, 3, 1, 0, 2, 5, 3]
     # solution.quick_sort(m, 0, len(m) - 1)
     # print(m)
-    print(solution.findRepeatNumber([3, 1, 2, 3]))
+    # print(solution.findRepeatNumber([3, 1, 2, 3]))
